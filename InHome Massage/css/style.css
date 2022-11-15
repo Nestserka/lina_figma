@@ -1,0 +1,139 @@
+/* font-family: 'Domine', serif;
+font-family: 'Poppins', sans-serif; */
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #E6D2D2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #969696;
+    text-transform: capitalize;
+}
+
+section {
+    width: 1440px;
+    height: 784px;
+    padding-left: 102px;
+    padding-top: 52px; 
+    background-color:#F6F4F2;
+}
+
+.nav__list {
+    display:flex;
+    justify-content: space-between;
+    max-width: 309px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 0,5px;
+}
+
+.logo .logo_img{
+    position: absolute;
+    width: 93.9px;
+    height: 93.01px;
+    left: 673px;
+    top: 23px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav__link__last {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav__list-item__last {
+    position: absolute;
+    width: 110px;
+    height: 24px;
+    left: 953px;
+    top: 52px;
+}
+
+.nav__list-item__btn {
+    position: absolute;
+    padding: 0;
+    width: 222px;
+    height: 56px;
+    left: 1116px;
+    top: 52px;
+}
+
+
+.main {
+    padding-top: 149px;
+    padding-bottom: 198px;
+}
+.main .main__title  {
+    font-family: 'Domine', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    color: #2A2A2A;
+}
+
+.main .main__intro {
+    width: 563px;
+    height: 72px;
+}
+
+.main .logo_2{
+    position: absolute;
+    width: 623px;
+    height: 579px;
+    left: 739px;
+    top: 205px;
+}
+
+.btn {
+    text-decoration: none;
+    display: flex;
+    max-width: 222px;
+    margin-top:55px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 22px;
+    gap: 8px;
+    background-color:#2A2A2A;
+}
+
+.btn--primary{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.sns {
+    display: flex;
+    justify-content: space-between;
+    max-width: 130px;
+    text-decoration: none;
+    margin-top:55px;
+    height: 25px;
+}
+
+/* .logo_img_2{
+    opacity: 0.10;
+    width: 625.53px;
+    height: 619.66px;
+    left: 664px;
+    top: 64px;
+} */
